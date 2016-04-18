@@ -12,7 +12,7 @@ function Car(make, model, year, color, seats, passengers){
 
   this.passengers = [];
   if(passengers){
-  	this.passengers = passengers;
+  	this.passengers = passengers || [];
   }
 }
 // Phase 1
